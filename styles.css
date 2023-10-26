@@ -1,0 +1,59 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #f5f5f5;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adding a background image for a better glassmorphism effect */
+    background-image: url('images/elybg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Glassmorphism specific styles */
+    backdrop-filter: blur(10px); /* This will blur the background of the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slight border for better distinction */
+}
+
+/* ... rest of your styles ... */
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    object-fit: contain; 
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(255, 0, 123, 0.7); /* Made button a bit transparent for the glassmorphism effect */
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(179, 0, 101, 0.8);
+}
+
+p {
+    margin-top: 20px;
+}
