@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('images/mahiru.jpg')) {
-        waifu.src = 'images/mahirunig.jpg';
-        status.textContent = 'Mahiru Shiina Hitam';
+    if (waifu.src.endsWith('images/zeta.jpg')) {
+        waifu.src = 'images/zetanig.jpg';
+        status.textContent = 'Vestia Zeta Hitam';
     } else {
-        waifu.src = 'images/mahiru.jpg';
-        status.textContent = 'Mahiru Shiina Putih';
+        waifu.src = 'images/zeta.jpg';
+        status.textContent = 'Vestia Zeta Putih';
     }
 }
 

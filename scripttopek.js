@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('images/mahiru.jpg')) {
-        waifu.src = 'images/mahirunig.jpg';
-        status.textContent = 'Mahiru Shiina Hitam';
+    if (waifu.src.endsWith('images/topekstm.jpg')) {
+        waifu.src = 'images/topekemyu.jpg';
+        status.textContent = 'Topek Emyu';
     } else {
-        waifu.src = 'images/mahiru.jpg';
-        status.textContent = 'Mahiru Shiina Putih';
+        waifu.src = 'images/topekstm.jpg';
+        status.textContent = 'Topek Stembayo';
     }
 }
 
@@ -26,4 +26,3 @@ function searchFunction() {
         alert('Waifu tidak ditemukan');
     }
 }
-
