@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('ely.png')) {
-        waifu.src = 'images/elynig.png';
-        status.textContent = 'Elysia Hitam';
+    if (waifu.src.endsWith('images/mahiru.jpg')) {
+        waifu.src = 'images/mahirunig.jpg';
+        status.textContent = 'Mahiru Shiina Hitam';
     } else {
-        waifu.src = 'images/ely.png';
-        status.textContent = 'Elysia Putih';
+        waifu.src = 'images/mahiru.jpg';
+        status.textContent = 'Mahiru Shiina Putih';
     }
 }
 
