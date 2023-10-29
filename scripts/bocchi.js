@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('/images/topekstm.jpg')) {
-        waifu.src = '/images/topekemyu.jpg';
-        status.textContent = 'Topek Emyu';
+    if (waifu.src.endsWith('/images/bocchi.jpg')) {
+        waifu.src = '/images/bocchinig.jpg';
+        status.textContent = 'Bocchi Hitam';
     } else {
-        waifu.src = '/images/topekstm.jpg';
-        status.textContent = 'Topek Stembayo';
+        waifu.src = '/images/bocchi.jpg';
+        status.textContent = 'Bocchi Putih';
     }
 }
 

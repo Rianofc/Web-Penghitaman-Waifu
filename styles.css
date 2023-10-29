@@ -70,7 +70,7 @@ header p {
     background-color: rgba(255, 0, 123, 0.7);
     color: #FFF;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 
@@ -129,23 +129,9 @@ input, textarea {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #FFF;
     color: #000;
-}
-
-button[type="submit"] {
-    background-color: rgba(255, 0, 123, 0.7);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #FFF;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button[type="submit"]:hover {
-    background-color: rgba(179, 0, 101, 0.8);
 }
 
 /* Styles for footer */
@@ -159,3 +145,31 @@ footer p {
     margin: 0;
 }
 
+/* Mengatur bagian scrollbar yang dapat bergerak (thumb) */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(179, 179, 179, 0.8);
+}
+
+/* Mengatur bagian track dari scrollbar */
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Mengatur lebar scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Pengaturan untuk Firefox (gunakan jika diperlukan) */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.7) rgba(0, 0, 0, 0.2);
+}

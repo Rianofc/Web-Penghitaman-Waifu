@@ -28,8 +28,10 @@ function searchFunction() {
         window.location.href = '/pages/mahiru-shiina.html';
     } else if (query.includes("zeta")) {
         window.location.href = '/pages/vestia-zeta.html';
+    } else if (query.includes("bocchi")) {
+        window.location.href = '/pages/bocchi.html';
     } else {
-        alert('Waifu tidak ditemukan');
+        modal.style.display = "block";
     }
 }
 
@@ -40,7 +42,7 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('ely.png')) {
+    if (waifu.src.endsWith('/images/ely.png')) {
         waifu.src = '/images/elynig.png';
         status.textContent = 'Elysia Hitam';
     } else {
@@ -64,7 +66,7 @@ function showDropdown() {
         return;
     }
 
-    if (["elysia", "ryo", "mahiru", "zeta", ""].some(waifu => query.includes(waifu))) {
+    if ([""].some(waifu => query.includes(waifu))) {
         dropdown.classList.add('show');
     } else {
         dropdown.classList.remove('show');
@@ -79,3 +81,16 @@ document.addEventListener('click', function(event) {
         dropdown.classList.remove('show');
     }
 });
+
+const modal = document.getElementById('notFoundModal');
+const closeModal = document.querySelector('.close');
+
+closeModal.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}

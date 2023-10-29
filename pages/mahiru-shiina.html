@@ -12,9 +12,14 @@
 
 <body>
     <div class="navbar">
-        <span class="navbar-text">Web Penghitaman Waifu</span> <!-- Teks di sisi kiri -->
+        <span class="navbar-text">Web Penghitaman Waifu</span>
         <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Cari Waifu...">
+            <input type="text" id="searchBar" placeholder="Cari Waifu..." onkeyup="showDropdown()">
+            <div id="waifuDropdown" class="dropdown-content">
+                <a href="/pages/vestia-zeta.html"><i class="bi bi-fire"></i> Zeta</a>
+                <a href="/pages/ryo-yamada.html"><i class="bi bi-fire"></i> Ryo</a>
+                <a href="/pages/mahiru-shiina.html"></i> Mahiru Shiina</a>
+            </div>
             <button id="navbutton" onclick="searchFunction()"><i class="bi bi-search"></i></button>
         </div>
     </div>
@@ -41,6 +46,15 @@
         </div>
         <p>Made With 💖 By Prozycal</p>
     </footer>
+
+    <div id="notFoundModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p><i class="bi bi-patch-exclamation"></i> Waifu tidak ditemukan!</p>
+            <img src="/images/modalmeme.jpg">
+            <p>Mau Suggest Waifu? <a href="https://waifu-suggest.vercel.app">Click Disini!</a></p>
+        </div>
+    </div>
 
     <script src="/scripts/mahiru-shiina.js"></script>
 </body>
