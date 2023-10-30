@@ -200,3 +200,39 @@ footer p {
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.7) rgba(0, 0, 0, 0.2);
 }
+
+.waifu-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+    transition: transform 0.3s;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 10px 1%; /* biar ada jarak antara waifu-item */
+}
+
+.waifu-item:hover {
+    transform: translateY(-10px);
+}
+
+.waifu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.waifu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(209, 24, 92);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.social-media {
+    margin-bottom: 10px;
+}

@@ -30,6 +30,8 @@ function searchFunction() {
         window.location.href = '/pages/vestia-zeta.html';
     } else if (query.includes("bocchi")) {
         window.location.href = '/pages/bocchi.html';
+    } else if (query.includes("kafka")) {
+        window.location.href = '/pages/kafka.html';
     } else {
         modal.style.display = "block";
     }
