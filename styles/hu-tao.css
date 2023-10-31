@@ -8,7 +8,7 @@
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 body {
-    font-family: 'coolvetica';
+    font-family: 'coolvetica', sans-serif;
     background-color: #000000;
     color: white;
     margin: 0;
@@ -16,12 +16,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/images/zetabg.webp');
+    background-image: url('/images/hutaobg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 .navbar {
@@ -64,7 +64,7 @@ body {
     padding: 10px 15px;
     margin-top: 2px;
     border: none;
-    background-color: rgba(28, 27, 29, 0.7);
+    background-color: rgb(191, 54, 54);
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -79,20 +79,20 @@ body {
 }
 
 
-a:not(.bi-github, .bi-instagram, .bi-twitter-x) {
-    color: rgba(28, 27, 29, 0.7);
+a {
+    color: rgb(191, 54, 54);
     background-color: transparent;
     text-decoration: none;
   }
 
-.container {
+  .container {
     background-color: rgba(255, 255, 255, 0.1); 
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border: 1px solid rgba(184, 90, 90, 0.2); 
     margin-top: 50px;
 }
 
@@ -111,15 +111,15 @@ button {
     padding: 10px 20px;
     margin-top: 20px;
     border: none;
-    background-color: rgba(28, 27, 29, 0.7);
+    background-color: rgb(191, 54, 54);
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+button:hover {
+    background-color: rgb(135, 38, 38);
 }
 
 p {
@@ -132,20 +132,20 @@ p {
 .navigation button {
     padding: 10px 20px;
     border: none;
-    background-color: rgba(28, 27, 29, 0.7);
+    background-color: rgb(191, 54, 54);
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-right: 10px; /* space between buttons */
+    margin-right: 10px; 
 }
 
 .navigation button:last-child {
-    margin-right: 0; /* remove space for the last button */
+    margin-right: 0;
 }
 
 .navigation button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(135, 38, 38);
 }
 
 .footer {
@@ -169,10 +169,6 @@ p {
 
 .social-icon:hover {
     color: rgb(255, 255, 255);
-}
-
-.bi-github, .bi-instagram, .bi-twitter-x {
-    color:rgb(255, 255, 255)
 }
 
 .search-container {

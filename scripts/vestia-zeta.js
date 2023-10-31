@@ -32,10 +32,26 @@ function searchFunction() {
         window.location.href = '/pages/bocchi.html';
     } else if (query.includes("kafka")) {
         window.location.href = '/pages/kafka.html';
+    } else if (query.includes("hutao")) {
+        window.location.href = '/pages/hu-tao.html';
+    } else if (query.includes("hu tao")) {
+        window.location.href = '/pages/hu-tao.html';
+    } else if (query.includes("nijika")) {
+        window.location.href = '/pages/nijika.html';
+    } else if (query.includes("kita")) {
+        window.location.href = '/pages/kita.html';
+    } else if (query.includes("ikuyo kita")) {
+        window.location.href = '/pages/kita.html';
+    } else if (query.includes("kobo")) {
+        window.location.href = '/pages/kobo.html';
+    }else if (query.includes("kobo kanaeru")) {
+        window.location.href = '/pages/kobo.html';
     } else {
         modal.style.display = "block";
     }
 }
+
+
 
 
 function showDropdown() {

@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('/images/ryo.jpg')) {
-        waifu.src = '/images/ryonig.jpg';
-        status.textContent = 'Ryo Hitam';
+    if (waifu.src.endsWith('/images/nijika.jpg')) {
+        waifu.src = '/images/nijikanig.jpg';
+        status.textContent = 'Nijika Hitam';
     } else {
-        waifu.src = '/images/ryo.jpg';
-        status.textContent = 'Ryo Putih';
+        waifu.src = '/images/nijika.jpg';
+        status.textContent = 'Nijika Putih';
     }
 }
 
@@ -50,7 +50,6 @@ function searchFunction() {
         modal.style.display = "block";
     }
 }
-
 
 
 function showDropdown() {
