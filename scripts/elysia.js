@@ -51,28 +51,6 @@ function searchFunction() {
     }
 }
 
-
-/* let clickCounter = 0;
-
-function toggleImage() {
-    const waifu = document.getElementById('waifu');
-    const status = document.getElementById('status');
-
-    if (waifu.src.endsWith('/images/ely.png')) {
-        waifu.src = '/images/elynig.png';
-        status.textContent = 'Elysia Hitam';
-    } else {
-        waifu.src = '/images/ely.png';
-        status.textContent = 'Elysia Putih';
-    }
-
-    clickCounter++; 
-
-    if (clickCounter === 50) {
-        window.location.href = 'C2qXvulx4s.html'; 
-    }
-} */
-
 function showDropdown() {
     const dropdown = document.getElementById('waifuDropdown');
     const query = document.getElementById('searchBar').value.toLowerCase();
