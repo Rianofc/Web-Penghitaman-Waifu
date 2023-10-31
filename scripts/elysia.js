@@ -44,7 +44,7 @@ function searchFunction() {
         window.location.href = '/pages/kita.html';
     } else if (query.includes("kobo")) {
         window.location.href = '/pages/kobo.html';
-    }else if (query.includes("kobo kanaeru")) {
+    } else if (query.includes("kobo kanaeru")) {
         window.location.href = '/pages/kobo.html';
     } else {
         modal.style.display = "block";
