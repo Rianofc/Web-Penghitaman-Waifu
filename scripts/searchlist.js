@@ -41,6 +41,8 @@ function searchFunction() {
         window.location.href = '/pages/nakano-miku.html';
     } else if (query.includes("furina")) {
         window.location.href = '/pages/furina.html';
+    } else if (query.includes("yelan")) {
+        window.location.href = '/pages/yelan.html';
     } else {
         modal.style.display = "block";
     }
