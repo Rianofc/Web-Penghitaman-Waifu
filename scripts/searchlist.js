@@ -43,6 +43,16 @@ function searchFunction() {
         window.location.href = '/pages/furina.html';
     } else if (query.includes("yelan")) {
         window.location.href = '/pages/yelan.html';
+    } else if (query.includes("keqing")) {
+        window.location.href = '/pages/keqing.html';
+    } else if (query.includes("ninym")) {
+        window.location.href = '/pages/ninym.html';
+    } else if (query.includes("ayaka")) {
+        window.location.href = '/pages/ayaka.html';
+    } else if (query.includes("raiden shogun")) {
+        window.location.href = '/pages/raiden-shogun.html';
+    } else if (query.includes("raiden ei")) {
+        window.location.href = '/pages/raiden-shogun.html';
     } else {
         modal.style.display = "block";
     }
