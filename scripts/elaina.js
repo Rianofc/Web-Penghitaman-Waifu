@@ -2,12 +2,12 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('/images/bocchi.jpg')) {
-        waifu.src = '/images/bocchinig.jpg';
-        status.textContent = 'Bocchi Hitam';
+    if (waifu.src.endsWith('/images/elaina.jpg')) {
+        waifu.src = '/images/elainanig.jpg';
+        status.textContent = 'Elaina Hitam';
     } else {
-        waifu.src = '/images/bocchi.jpg';
-        status.textContent = 'Bocchi Putih';
+        waifu.src = '/images/elaina.jpg';
+        status.textContent = 'Elaina Putih';
     }
 }
 

@@ -2,11 +2,11 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('/images/ely.png')) {
+    if (waifu.src.endsWith('/images/ely.jpeg')) {
         waifu.src = '/images/elynig.png';
         status.textContent = 'Elysia Hitam';
     } else {
-        waifu.src = '/images/ely.png';
+        waifu.src = '/images/ely.jpeg';
         status.textContent = 'Elysia Putih';
     }
 }
@@ -46,6 +46,14 @@ function searchFunction() {
         window.location.href = '/pages/kobo.html';
     } else if (query.includes("kobo kanaeru")) {
         window.location.href = '/pages/kobo.html';
+    } else if (query.includes("elaina")) {
+        window.location.href = '/pages/elaina.html';
+    } else if (query.includes("shizuka")) {
+        window.location.href = '/pages/shizuka.html';
+    } else if (query.includes("shizuka mikazuki")) {
+        window.location.href = '/pages/shizuka.html';
+    } else if (query.includes("yae miko")) {
+        window.location.href = '/pages/yae-miko.html';
     } else {
         modal.style.display = "block";
     }
