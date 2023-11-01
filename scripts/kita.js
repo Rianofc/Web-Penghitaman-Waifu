@@ -44,8 +44,16 @@ function searchFunction() {
         window.location.href = '/pages/kita.html';
     } else if (query.includes("kobo")) {
         window.location.href = '/pages/kobo.html';
-    }else if (query.includes("kobo kanaeru")) {
+    } else if (query.includes("kobo kanaeru")) {
         window.location.href = '/pages/kobo.html';
+    } else if (query.includes("elaina")) {
+        window.location.href = '/pages/elaina.html';
+    } else if (query.includes("shizuka")) {
+        window.location.href = '/pages/shizuka.html';
+    } else if (query.includes("shizuka mikazuki")) {
+        window.location.href = '/pages/shizuka.html';
+    } else if (query.includes("yae miko")) {
+        window.location.href = '/pages/yae-miko.html';
     } else {
         modal.style.display = "block";
     }
