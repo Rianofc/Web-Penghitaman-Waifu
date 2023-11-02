@@ -91,6 +91,8 @@ function searchFunction() {
         window.location.href = '/category/gotoubun-no-hanayome.html';
     } else if (query.includes("quintessential quintuplets")) {
         window.location.href = '/category/gotoubun-no-hanayome.html';
+    } else if (query.includes("hololive")) {
+        window.location.href = '/category/hololive.html';
     } else {
         modal.style.display = "block";
     }
