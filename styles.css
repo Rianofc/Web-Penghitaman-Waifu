@@ -236,3 +236,60 @@ a {
 .social-media {
     margin-bottom: 10px;
 }
+
+#support {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#support h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+
+#features h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+
+#trending h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+
+#support p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.donator {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donator-item {
+    width: 30%;
+    padding: 20px;
+    background-color: rgba(255, 0, 123, 0.1);
+    border-radius: 10px;
+    margin: 10px 1%;
+    text-align: center;
+}
+
+.donator-name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.donation-amount {
+    font-size: 1.5em;
+    color: rgb(209, 24, 92);
+}
+
+.donatur-image {
+    max-width: 50px; 
+    max-height: 50px; 
+    border-radius: 10px;
+}
