@@ -53,6 +53,22 @@ function searchFunction() {
         window.location.href = '/pages/raiden-shogun.html';
     } else if (query.includes("raiden ei")) {
         window.location.href = '/pages/raiden-shogun.html';
+    } 
+    // Categories
+    else if (query.includes("honkai impact")) {
+        window.location.href = '/category/honkai-impact-3rd.html';
+    } else if (query.includes("hi3")) {
+        window.location.href = '/category/honkai-impact-3rd.html';
+    } else if (query.includes("genshin impact")) {
+        window.location.href = '/category/genshin-impact.html';
+    } else if (query.includes("genshin")) {
+        window.location.href = '/category/genshin-impact.html';
+    } else if (query.includes("honkai star rail")) {
+        window.location.href = '/category/honkai-star-rail.html';
+    } else if (query.includes("hsr")) {
+        window.location.href = '/category/honkai-star-rail.html';
+    } else if (query.includes("btr")) {
+        window.location.href = '/category/bocchi-the-rock.html';
     } else {
         modal.style.display = "block";
     }
