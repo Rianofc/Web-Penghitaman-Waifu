@@ -35,8 +35,6 @@ function searchFunction() {
         window.location.href = '/pages/shizuka.html';
     } else if (query.includes("yae miko")) {
         window.location.href = '/pages/yae-miko.html';
-    } else if (query.includes("topek")) {
-        window.location.href = '/pages/C2qXvulx4s.html';
     } else if (query.includes("nakano miku")) {
         window.location.href = '/pages/nakano-miku.html';
     } else if (query.includes("furina")) {
@@ -53,6 +51,22 @@ function searchFunction() {
         window.location.href = '/pages/raiden-shogun.html';
     } else if (query.includes("raiden ei")) {
         window.location.href = '/pages/raiden-shogun.html';
+    } else if (query.includes("nakano ichika")) {
+        window.location.href = '/pages/nakano-ichika.html';
+    } else if (query.includes("nakano nino")) {
+        window.location.href = '/pages/nakano-nino.html';
+    } else if (query.includes("nino")) {
+        window.location.href = '/pages/nakano-nino.html';
+    } else if (query.includes("nakano nino")) {
+        window.location.href = '/pages/nakano-nino.html';
+    } else if (query.includes("nakano itsuki")) {
+        window.location.href = '/pages/nakano-itsuki.html';
+    } else if (query.includes("itsuki")) {
+        window.location.href = '/pages/nakano-itsuki.html';
+    } else if (query.includes("nakano yotsuba")) {
+        window.location.href = '/pages/nakano-yotsuba.html';
+    } else if (query.includes("yotsuba")) {
+        window.location.href = '/pages/nakano-yotsuba.html';
     } 
     // Categories
     else if (query.includes("honkai impact")) {
@@ -69,6 +83,14 @@ function searchFunction() {
         window.location.href = '/category/honkai-star-rail.html';
     } else if (query.includes("btr")) {
         window.location.href = '/category/bocchi-the-rock.html';
+    } else if (query.includes("gotoubun no hanayome")) {
+        window.location.href = '/category/gotoubun-no-hanayome.html';
+    } else if (query.includes("gotoubun")) {
+        window.location.href = '/category/gotoubun-no-hanayome.html';
+    } else if (query.includes("the quintessential quintuplets")) {
+        window.location.href = '/category/gotoubun-no-hanayome.html';
+    } else if (query.includes("quintessential quintuplets")) {
+        window.location.href = '/category/gotoubun-no-hanayome.html';
     } else {
         modal.style.display = "block";
     }
