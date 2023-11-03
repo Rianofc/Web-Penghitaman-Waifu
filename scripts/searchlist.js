@@ -67,7 +67,11 @@ function searchFunction() {
         window.location.href = '/pages/nakano-yotsuba.html';
     } else if (query.includes("yotsuba")) {
         window.location.href = '/pages/nakano-yotsuba.html';
-    } 
+    } else if (query.includes("shiroko")) {
+        window.location.href = '/pages/shiroko.html';
+    } else if (query.includes("hina")) {
+        window.location.href = '/pages/hina.html';
+    }
     // Categories
     else if (query.includes("honkai impact")) {
         window.location.href = '/category/honkai-impact-3rd.html';
