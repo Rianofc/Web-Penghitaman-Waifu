@@ -71,6 +71,8 @@ function searchFunction() {
         window.location.href = '/pages/shiroko.html';
     } else if (query.includes("hina")) {
         window.location.href = '/pages/hina.html';
+    } else if (query.includes("jingliu")) {
+        window.location.href = '/pages/jingliu.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
