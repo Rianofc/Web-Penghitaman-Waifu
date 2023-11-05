@@ -1,3 +1,10 @@
+let clickCount = 0;
+
+function updateClickCount() {
+    const clickCountElement = document.getElementById('clickCount');
+    clickCountElement.textContent = clickCount;
+}
+
 function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
@@ -9,6 +16,10 @@ function toggleImage() {
         waifu.src = '/images/rio.jpg';
         status.textContent = 'Rio Putih';
     }
+
+    clickCount++;
+
+    updateClickCount();
 }
 
 document.getElementById('searchBar').addEventListener('keyup', function(event) {
@@ -16,8 +27,6 @@ document.getElementById('searchBar').addEventListener('keyup', function(event) {
         searchFunction();
     }
 });
-
-
 
 
 function showDropdown() {

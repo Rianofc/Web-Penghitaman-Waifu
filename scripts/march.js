@@ -1,3 +1,10 @@
+let clickCount = 0;
+
+function updateClickCount() {
+    const clickCountElement = document.getElementById('clickCount');
+    clickCountElement.textContent = clickCount;
+}
+
 function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
@@ -9,6 +16,10 @@ function toggleImage() {
         waifu.src = '/images/march.jpg';
         status.textContent = 'March 7th Putih';
     }
+
+    clickCount++;
+
+    updateClickCount();
 }
 
 document.getElementById('searchBar').addEventListener('keyup', function(event) {

@@ -1,3 +1,10 @@
+let clickCount = 0;
+
+function updateClickCount() {
+    const clickCountElement = document.getElementById('clickCount');
+    clickCountElement.textContent = clickCount;
+}
+
 function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
@@ -9,6 +16,10 @@ function toggleImage() {
         waifu.src = '/images/nijika.jpg';
         status.textContent = 'Nijika Putih';
     }
+
+    clickCount++;
+
+    updateClickCount();
 }
 
 document.getElementById('searchBar').addEventListener('keyup', function(event) {

@@ -1,14 +1,8 @@
-function toggleImage() {
-    const waifu = document.getElementById('waifu');
-    const status = document.getElementById('status');
+let clickCounts = 0;
 
-    if (waifu.src.endsWith('/images/kobo.jpg')) {
-        waifu.src = '/images/kobonig.jpg';
-        status.textContent = 'Kobo Kanaeru Hitam';
-    } else {
-        waifu.src = '/images/kobo.jpg';
-        status.textContent = 'Kobo Kanaeru Putih';
-    }
+function updateClickCounts() {
+    const clickCountsElement = document.getElementById('clickCounts');
+    clickCountsElement.textContent = clickCounts;
 }
 
 document.getElementById('searchBar').addEventListener('keyup', function(event) {
@@ -16,8 +10,6 @@ document.getElementById('searchBar').addEventListener('keyup', function(event) {
         searchFunction();
     }
 });
-
-
 
 function showDropdown() {
     const dropdown = document.getElementById('waifuDropdown');
@@ -93,5 +85,9 @@ function toggleImage() {
             waifu.src = '/images/kobo.jpg';
             status.textContent = 'Kobo Kanaeru Putih';
         }
+
+        clickCounts++;
+
+        updateClickCounts();
     }
 }
