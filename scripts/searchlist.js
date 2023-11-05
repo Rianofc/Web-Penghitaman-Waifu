@@ -73,6 +73,12 @@ function searchFunction() {
         window.location.href = '/pages/hina.html';
     } else if (query.includes("jingliu")) {
         window.location.href = '/pages/jingliu.html';
+    } else if (query.includes("topaz")) {
+        window.location.href = '/pages/topaz.html';
+    } else if (query.includes("march")) {
+        window.location.href = '/pages/march.html';
+    } else if (query.includes("rio")) {
+        window.location.href = '/pages/rio.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
@@ -99,6 +105,8 @@ function searchFunction() {
         window.location.href = '/category/gotoubun-no-hanayome.html';
     } else if (query.includes("hololive")) {
         window.location.href = '/category/hololive.html';
+    } else if (query.includes("blue archive")) {
+        window.location.href = '/category/blue-archive.html';
     } else {
         modal.style.display = "block";
     }
