@@ -79,6 +79,10 @@ function searchFunction() {
         window.location.href = '/pages/march.html';
     } else if (query.includes("rio")) {
         window.location.href = '/pages/rio.html';
+    } else if (query.includes("theresa")) {
+        window.location.href = '/pages/theresa.html';
+    } else if (query.includes("kiana")) {
+        window.location.href = '/pages/kiana.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
