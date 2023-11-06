@@ -83,6 +83,10 @@ function searchFunction() {
         window.location.href = '/pages/theresa.html';
     } else if (query.includes("kiana")) {
         window.location.href = '/pages/kiana.html';
+    } else if (query.includes("frieren")) {
+        window.location.href = '/pages/frieren.html';
+    } else if (query.includes("fern")) {
+        window.location.href = '/pages/fern.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
@@ -111,6 +115,8 @@ function searchFunction() {
         window.location.href = '/category/hololive.html';
     } else if (query.includes("blue archive")) {
         window.location.href = '/category/blue-archive.html';
+    } else if (query.includes("sousou no frieren")) {
+        window.location.href = '/category/sousou-no-frieren.html';
     } else {
         modal.style.display = "block";
     }
