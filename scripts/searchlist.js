@@ -87,6 +87,18 @@ function searchFunction() {
         window.location.href = '/pages/frieren.html';
     } else if (query.includes("fern")) {
         window.location.href = '/pages/fern.html';
+    } else if (query.includes("griseo")) {
+        window.location.href = '/pages/griseo.html';
+    } else if (query.includes("ai hoshino")) {
+        window.location.href = '/pages/ai-hoshino.html';
+    } else if (query.includes("ruby")) {
+        window.location.href = '/pages/ruby-hoshino.html';
+    } else if (query.includes("kana")) {
+        window.location.href = '/pages/kana-arima.html';
+    } else if (query.includes("akane")) {
+        window.location.href = '/pages/akane-kurokawa.html';
+    } else if (query.includes("miyako")) {
+        window.location.href = '/pages/miyako-saitou.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
@@ -115,8 +127,10 @@ function searchFunction() {
         window.location.href = '/category/hololive.html';
     } else if (query.includes("blue archive")) {
         window.location.href = '/category/blue-archive.html';
-    } else if (query.includes("sousou no frieren")) {
+    } else if (query.includes("sousou")) {
         window.location.href = '/category/sousou-no-frieren.html';
+    } else if (query.includes("oshi no ko")) {
+        window.location.href = '/category/oshi-no-ko.html';
     } else {
         modal.style.display = "block";
     }
