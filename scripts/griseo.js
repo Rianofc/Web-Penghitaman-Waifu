@@ -8,7 +8,8 @@ function updateClickCount() {
 function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
-
+    const clickCountElement = document.getElementById('clickCount');
+    
     if (waifu.src.endsWith('/images/griseo.jpg')) {
         waifu.src = '/images/griseonig.jpg';
         status.textContent = 'Griseo Hitam';
@@ -16,11 +17,16 @@ function toggleImage() {
         waifu.src = '/images/griseo.jpg';
         status.textContent = 'Griseo Putih';
     }
-
+    
     clickCount++;
-
-    updateClickCount();
+    clickCountElement.textContent = clickCount;
+    
+    if (clickCount >= 100) {
+        status.textContent = '🤨📸';
+        waifu.src = '/images/griseonude.jpg';
+    }
 }
+
 
 document.getElementById('searchBar').addEventListener('keyup', function(event) {
     if (event.key === "Enter") {
