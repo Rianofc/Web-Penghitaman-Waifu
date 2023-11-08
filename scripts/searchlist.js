@@ -69,7 +69,7 @@ function searchFunction() {
         window.location.href = '/pages/nakano-yotsuba.html';
     } else if (query.includes("shiroko")) {
         window.location.href = '/pages/shiroko.html';
-    } else if (query.includes("hina")) {
+    } else if (query.includes("sorasaki hina")) {
         window.location.href = '/pages/hina.html';
     } else if (query.includes("jingliu")) {
         window.location.href = '/pages/jingliu.html';
@@ -99,6 +99,26 @@ function searchFunction() {
         window.location.href = '/pages/akane-kurokawa.html';
     } else if (query.includes("miyako")) {
         window.location.href = '/pages/miyako-saitou.html';
+    } else if (query.includes("marin")) {
+        window.location.href = '/pages/marin-kitagawa.html';
+    } else if (query.includes("mikasa")) {
+        window.location.href = '/pages/mikasa-ackerman.html';
+    } else if (query.includes("hinata")) {
+        window.location.href = '/pages/hinata-hyuga.html';
+    } else if (query.includes("yor")) {
+        window.location.href = '/pages/yor-forger.html';
+    } else if (query.includes("makima")) {
+        window.location.href = '/pages/makima.html';
+    } else if (query.includes("zero two")) {
+        window.location.href = '/pages/zero-two.html';
+    } else if (query.includes("nobara")) {
+        window.location.href = '/pages/nobara.html';
+    } else if (query.includes("robin")) {
+        window.location.href = '/pages/nico-robin.html';
+    } else if (query.includes("tsunade")) {
+        window.location.href = '/pages/tsunade.html';
+    } else if (query.includes("hoshino")) {
+        window.location.href = '/pages/hoshino.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
