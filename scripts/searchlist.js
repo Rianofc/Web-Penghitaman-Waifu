@@ -119,6 +119,8 @@ function searchFunction() {
         window.location.href = '/pages/tsunade.html';
     } else if (query.includes("hoshino")) {
         window.location.href = '/pages/hoshino.html';
+    } else if (query.includes("ymir")) {
+        window.location.href = '/pages/ymir.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
