@@ -294,3 +294,37 @@ a {
     max-height: 50px; 
     border-radius: 10px;
 }
+
+.animated-header {
+    animation: fadeInUp 1s ease-out;
+}
+
+.animated-section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.animated-footer {
+    animation: fadeIn 1s ease-out 1s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
