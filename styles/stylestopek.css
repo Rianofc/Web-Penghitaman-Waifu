@@ -35,7 +35,8 @@ body {
     display: flex;
     justify-content: space-between;  
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    backdrop-filter: blur(10px); 
 }
 
 .navbar-logo {
@@ -152,9 +153,10 @@ p {
 .footer {
     width: 100%;
     padding: 25px 0;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
+    backdrop-filter: blur(10px); 
 }
 
 .social-media {

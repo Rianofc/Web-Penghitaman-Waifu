@@ -121,6 +121,26 @@ function searchFunction() {
         window.location.href = '/pages/hoshino.html';
     } else if (query.includes("ymir")) {
         window.location.href = '/pages/ymir.html';
+    } else if (query.includes("siesta")) {
+        window.location.href = '/pages/siesta.html';
+    } else if (query.includes("herta")) {
+        window.location.href = '/pages/herta.html';
+    } else if (query.includes("villhaze")) {
+        window.location.href = '/pages/villhaze.html';
+    } else if (query.includes("shikimori")) {
+        window.location.href = '/pages/shikimori.html';
+    } else if (query.includes("aru")) {
+        window.location.href = '/pages/aru.html';
+    } else if (query.includes("kaori")) {
+        window.location.href = '/pages/kaori.html';
+    } else if (query.includes("chisato")) {
+        window.location.href = '/pages/chisato.html';
+    } else if (query.includes("takina")) {
+        window.location.href = '/pages/takina.html';
+    } else if (query.includes("nilou")) {
+        window.location.href = '/pages/nilou.html';
+    } else if (query.includes("stelle")) {
+        window.location.href = '/pages/stelle.html';
     }
     // Categories
     else if (query.includes("honkai impact")) {
@@ -153,6 +173,8 @@ function searchFunction() {
         window.location.href = '/category/sousou-no-frieren.html';
     } else if (query.includes("oshi no ko")) {
         window.location.href = '/category/oshi-no-ko.html';
+    } else if (query.includes("lycoris recoil")) {
+        window.location.href = '/category/lycoris-recoil.html';
     } else {
         modal.style.display = "block";
     }

@@ -9,11 +9,11 @@ function toggleImage() {
     const waifu = document.getElementById('waifu');
     const status = document.getElementById('status');
 
-    if (waifu.src.endsWith('/images/ely.jpeg')) {
-        waifu.src = '/images/elynig.png';
+    if (waifu.src.endsWith('/images/ely.jpg')) {
+        waifu.src = '/images/elynig.jpg';
         status.textContent = 'Elysia Hitam';
     } else {
-        waifu.src = '/images/ely.jpeg';
+        waifu.src = '/images/ely.jpg';
         status.textContent = 'Elysia Putih';
     }
 
