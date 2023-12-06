@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Web Penghitaman Waifu</title>
+    <meta property="og:description" content="Temukan waifu hitam mu di Web Penghitaman Waifu!">
+    <link rel="stylesheet" href="/styles/nobara.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="https://negro.consulting"><img src="/images/favicon.png" alt="Logo" class="navbar-logo"></a>
+        <span class="navbar-text">Web Penghitaman Waifu</span>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search..." onkeyup="showDropdown()">
+            <div id="waifuDropdown" class="dropdown-content">
+                <a href="/pages/kafka"><i class="bi bi-stars"></i> Kafka</a>
+                <a href="/pages/ryo-yamada"><i class="bi bi-fire"></i> Ryo</a>
+                <a href="/pages/vestia-zeta"><i class="bi bi-fire"></i> Zeta</a>
+            </div>
+            <button id="navbutton" onclick="searchFunction()"><i class="bi bi-search"></i></button>
+        </div>
+    </div>
+   
+    <div class="container">
+        <br><br><br>
+        
+        <img id="waifu" src="/images/nobara.jpg" alt="Waifu Image">
+        <button onclick="toggleImage()">Ubah</button>
+        <p id="status">Nobara Putih</p>
+        <p>Mau Suggest Waifu? <a href="/form/suggest">Click Disini!</a></p>
+        <div class="click-count-container">
+            Click Count: <span id="clickCount">0</span>
+        </div>
+        <div class="navigation">
+            <button onclick="window.location.href='/pages/zero-two'">Back</button>
+            <button onclick="window.location.href='/pages/nico-robin'">Next</button>
+        </div>
+    </div>
+    
+    
+
+
+ <footer class="footer">
+     <div class="social-media">
+         <a href="https://github.com/Prozycal" class="bi bi-github" target="_blank"></a>
+         &nbsp;
+         <a href="https://twitter.com/Prozycal" class="bi bi-twitter-x" target="_blank"></a>
+         &nbsp;
+         <a href="https://www.instagram.com/przycal.fx" class="bi bi-instagram" target="_blank"></a>
+     </div>
+     <p>Made With 💖 By Prozycal</p>
+ </footer>
+
+ <div id="notFoundModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><i class="bi bi-patch-exclamation"></i> Waifu tidak ditemukan!</p>
+        <img src="/images/modalmeme.jpg">
+        <p>Mau Suggest Waifu? <a href="/form/suggest">Click Disini!</a></p>
+    </div>
+</div>
+
+    <script src="/scripts/nobara.js"></script>
+    <script src="/scripts/searchlist.js"></script>
+    
+    <script type='text/javascript' src='//pl21188484.toprevenuegate.com/1f/65/45/1f654526119d4b140e0f5ca249c48844.js'></script>
+</body>
+
+</html>
