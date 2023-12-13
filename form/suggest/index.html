@@ -13,7 +13,7 @@
 
 <body>
     <div class="navbar">
-        <img src="/images/favicon.png" alt="Logo" class="navbar-logo">
+        <a href="https://negro.consulting"><img src="/images/favicon.png" alt="Logo" class="navbar-logo"></a>
         <span class="navbar-text">Web Penghitaman Waifu</span>
         <div class="search-container">
             <input type="text" id="searchBar" placeholder="Search..." onkeyup="showDropdown()">
@@ -28,19 +28,24 @@
 
     <div class="container">
         <br><br><br>
-        <h1>Suggest Waifu (MAINTENANCE)</h1>
+        <h1>Suggest Waifu</h1>
+        <div class="svg-container">
+            <p>Powered By Formspree</p>
+            <img src="/images/formspree.svg">
+        </div>
         <img src="/images/emoji.gif">
-        <form id="discordForm">
-            <label for="username">Nama Pengirim:</label>
-            <input type="text" id="username" name="username" placeholder="name..." required>
-            
-            <label for="message">Nama Waifu:</label>
-            <textarea id="message" name="message" rows="3" placeholder="waifu.." required></textarea>
-            
-            <button type="button" onclick="sendMessage()">Submit</button>
+        <form action="https://formspree.io/f/mwkdgjnq" method="POST">
+            <label>
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Email...">
+              </label>
+              <label>
+                <p>Nama Waifu:</p>
+                <textarea name="message" placeholder="Nama waifu..."></textarea>
+              </label>
+              <button type="submit">Submit</button>
             <br><br><br><br><br>
         </form>
-        <p id="response"></p>
     </div>
 
     <footer class="footer">
@@ -59,14 +64,12 @@
            <span class="close">&times;</span>
            <p><i class="bi bi-patch-exclamation"></i> Waifu tidak ditemukan!</p>
            <img src="/images/modalmeme.jpg">
-           <p>Mau Suggest Waifu? <a href="https://waifu-suggest.vercel.app" target="_blank">Click Disini!</a></p>
+           <p>Mau Suggest Waifu? <a href="/form/suggest" target="_blank">Click Disini!</a></p>
        </div>
    </div>
    
        <script src="/scripts/elysia.js"></script>
-       <script src="/form/suggest.js"></script>
        <script src="/scripts/searchlist.js"></script>
-    <script src="/form/suggest.js"></script>
     <script type='text/javascript' src='//pl21188484.toprevenuegate.com/1f/65/45/1f654526119d4b140e0f5ca249c48844.js'></script>
 
 </body>

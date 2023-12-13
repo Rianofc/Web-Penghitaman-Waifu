@@ -141,6 +141,26 @@ function searchFunction() {
         window.location.href = '/pages/nilou';
     } else if (query.includes("stelle")) {
         window.location.href = '/pages/stelle';
+    } else if (query.includes("nahida")) {
+        window.location.href = '/pages/nahida';
+    } else if (query.includes("terakomari")) {
+        window.location.href = '/pages/komari';
+    } else if (query.includes("millicent")) {
+        window.location.href = '/pages/millicent';
+    } else if (query.includes("rem")) {
+        window.location.href = '/pages/rem';
+    } else if (query.includes("veliona")) {
+        window.location.href = '/pages/veliona';
+    } else if (query.includes("seele")) {
+        window.location.href = '/pages/seele';
+    } else if (query.includes("komi")) {
+        window.location.href = '/pages/komi';
+    } else if (query.includes("vermeil")) {
+        window.location.href = '/pages/vermeil';
+    } else if (query.includes("sayu")) {
+        window.location.href = '/pages/sayu';
+    } else if (query.includes("chizuru")) {
+        window.location.href = '/pages/chizuru';
     }
     // Categories
     else if (query.includes("honkai impact")) {
@@ -175,6 +195,8 @@ function searchFunction() {
         window.location.href = '/category/oshi-no-ko';
     } else if (query.includes("lycoris recoil")) {
         window.location.href = '/category/lycoris-recoil';
+    } else if (query.includes("hikikomari")) {
+        window.location.href = '/category/hikikomari-kyuuketsuki-no-monmon';
     } else {
         modal.style.display = "block";
     }
