@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+'''from flask import Flask, render_template, request, jsonify
 
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -37,3 +37,4 @@ def get_Chat_response(text):
 
 if __name__ == '__main__':
     app.run()
+'''

@@ -1413,7 +1413,7 @@ border-radius: 0 0 15px 15px !important;
 	position: absolute;
 	height: 15px;
 	width:15px;
-	background-color: #61e834;
+	background-color: #e83434;
 	border-radius: 50%;
 	bottom: 0.2em;
 	right: 0.4em;
@@ -1616,3 +1616,19 @@ border-radius: 0 0 15px 15px !important;
   background-color: rgb(255, 0, 123); 
   color: rgb(255, 255, 255);
 }   
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  background-color: rgb(255, 0, 123);
+  color: white;
+  padding: 3px 7px;
+  border-radius: 50%;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+@media (min-width: 992px) {
+  .badge { display: none; }
+}
